@@ -245,12 +245,15 @@ body, select, input, textarea {
 					
 /****************	Headers ****************/
 
-			h1 {
+			h1, h2#reply {
 				font-family: Courier;
 				font-size: 200%;
 				font-weight:normal;
 				letter-spacing:-0.02em;
 				}
+                        h2#reply {
+                          background:none
+                        }
 				
 			h1.title {
 				float:right;
@@ -262,7 +265,7 @@ body, select, input, textarea {
 				{color: #726f6f;}
 				#respond {display: block; margin-top: 30px;}
 				
-			h2 {
+			h2, h1.post-title {
 				font-family: Courier;
 				font-size: 150%;
 				font-weight: normal;
@@ -274,6 +277,12 @@ body, select, input, textarea {
 				}
 				h2.comments {font-size: 120%; display: block; margin-top: 30px; padding: 0 0 0 5px; margin-left: -5px; background: #f6f3d2;}
 				h2.pagetitle {margin-left: 23px; background: #c8d7e4; color: #fff; padding: 0 10px 0 2px; }
+			h1.post-title {
+                          letter-spacing:normal
+                        }
+                        h1.home-title {
+                          display:none
+                        }
 			h3 {
 				background: #FFFAF0;
 				font-size: 110%;

@@ -45,7 +45,7 @@
 
 <div id="respond">
 
-<h1><?php comment_form_title( 'Reply', 'Reply to %s' ); ?></h1>
+<h2 id="reply"><?php comment_form_title( 'Reply', 'Reply to %s' ); ?></h2>
 
 <div class="cancel-comment-reply">
 	<small><?php cancel_comment_reply_link(); ?></small>

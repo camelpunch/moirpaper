@@ -6,9 +6,9 @@
 																	<span class="month"><?php the_time('M') ?></span>
 																	<span class="day"><?php the_time('d') ?></span>
 												</span>
-												<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="View <?php the_title_attribute(); ?>">
+												<h1 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="View <?php the_title_attribute(); ?>">
 												<?php the_title(); ?>
-												</a></h2>
+												</a></h1>
 												<div class="entry">
 													<?php the_content('( Read more )'); ?>
 												 <?php wp_link_pages( $args ); ?> 

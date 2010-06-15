@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div id="multi_posts">
+  <h1 class="home-title"><?php bloginfo('name') ?></h1>
 		<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
