@@ -4,7 +4,7 @@
 &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
 
 <!--I'd rather you left this in (it's SO small!), but if you must... erase from here -->	
-<span class="ahhhdesign"><a href="http://birdthemes.com/paper-theme/">paper: a wp theme,  by Bird Themes</a></span>
+<span class="ahhhdesign"><a rel="nofollow" href="http://birdthemes.com/paper-theme/">paper: a wp theme,  by Bird Themes</a></span>
 <!--to here -->
 
 </div>
