@@ -216,6 +216,9 @@ body, select, input, textarea {
 				color:#EB9253;
 				text-decoration: none;
 				}
+                        .entry a {
+                          text-decoration:underline
+                        }
 			
 			a:focus { 
 		    outline: none; 
