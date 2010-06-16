@@ -279,7 +279,7 @@ body, select, input, textarea {
 				background: #fef78f;
 				}
 				h2.comments {font-size: 120%; display: block; margin-top: 30px; padding: 0 0 0 5px; margin-left: -5px; background: #f6f3d2;}
-				h2.pagetitle {margin-left: 23px; background: #c8d7e4; color: #fff; padding: 0 10px 0 2px; }
+                        h1.pagetitle {margin-left: 23px; background: #c8d7e4; color: #fff; padding: 0 10px 0 2px; }
 			h1.post-title {
                           letter-spacing:normal
                         }
