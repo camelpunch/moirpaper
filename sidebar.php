@@ -1,7 +1,7 @@
 <div id="sidebar">
 <div id="notecard">
 <div class="description"><?php bloginfo('description'); ?></div>
-<img class="sidebar" src="/moir.jpg" alt="Suzanne on a snowball, Brighton" />
+<img class="sidebar" src="http://static.teacherlife.co.uk/moir.jpg" alt="Suzanne on a snowball, Brighton" />
 </div>
 <ul id="sidelist">		
 			
